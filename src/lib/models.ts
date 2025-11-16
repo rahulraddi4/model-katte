@@ -21,8 +21,7 @@ export const models: Model3D[] = [
       "A battle-worn sci-fi helmet with realistic damage effects. Perfect for post-apocalyptic or combat games with PBR materials.",
     price: 49.99,
     category: "Props",
-    thumbnail:
-      "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=800&q=80",
+    thumbnail: "/images/damaged-helmet-thumb.jpg",
     fileUrl: "/models/damaged-helmet.glb",
     fileFormat: "GLTF",
     polyCount: 15000,
@@ -37,8 +36,7 @@ export const models: Model3D[] = [
       "Beautifully detailed antique lantern with glowing effects. Perfect for medieval, fantasy, or horror scenes.",
     price: 34.99,
     category: "Props",
-    thumbnail:
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&q=80",
+    thumbnail: "/images/lantern-thumb.jpg",
     fileUrl: "/models/lantern.glb",
     fileFormat: "GLTF",
     polyCount: 12000,
@@ -53,8 +51,7 @@ export const models: Model3D[] = [
       "Classic 80s boombox with detailed cassette deck and speakers. Perfect for retro, urban, or music-themed scenes.",
     price: 39.99,
     category: "Props",
-    thumbnail:
-      "https://images.unsplash.com/photo-1551817958-d9d86fb29431?w=800&q=80",
+    thumbnail: "/images/boombox-thumb.jpg",
     fileUrl: "/models/boombox.glb",
     fileFormat: "GLTF",
     polyCount: 18000,
@@ -69,8 +66,7 @@ export const models: Model3D[] = [
       "Photorealistic avocado with detailed texture and materials. Perfect for food visualization and product renders.",
     price: 19.99,
     category: "Nature",
-    thumbnail:
-      "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=800&q=80",
+    thumbnail: "/images/avocado-thumb.jpg",
     fileUrl: "/models/avocado.glb",
     fileFormat: "GLTF",
     polyCount: 8000,
@@ -85,8 +81,7 @@ export const models: Model3D[] = [
       "Cute stylized duck character perfect for games, animations, or children's content. Includes multiple expressions.",
     price: 29.99,
     category: "Characters",
-    thumbnail:
-      "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&q=80",
+    thumbnail: "/images/duck-thumb.jpg",
     fileUrl: "/models/duck.glb",
     fileFormat: "GLTF",
     polyCount: 5000,
@@ -96,29 +91,12 @@ export const models: Model3D[] = [
   },
   {
     id: "6",
-    name: "Pilot Flight Helmet",
-    description:
-      "Military-grade flight helmet with detailed visor and communication equipment. Perfect for aviation games.",
-    price: 44.99,
-    category: "Props",
-    thumbnail:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
-    fileUrl: "/models/damaged-helmet.glb",
-    fileFormat: "GLTF",
-    polyCount: 15000,
-    createdAt: "2024-04-15",
-    featured: false,
-    tags: ["helmet", "pilot", "aviation", "military", "prop"],
-  },
-  {
-    id: "7",
     name: "Medieval Lantern Set",
     description:
       "Pack of 3 medieval lanterns with different sizes. Includes glowing candle effects and hanging chains.",
     price: 39.99,
     category: "Props",
-    thumbnail:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    thumbnail: "/images/lantern-thumb.jpg",
     fileUrl: "/models/lantern.glb",
     fileFormat: "GLTF",
     polyCount: 12000,
@@ -127,14 +105,13 @@ export const models: Model3D[] = [
     tags: ["medieval", "lantern", "fantasy", "props", "set"],
   },
   {
-    id: "8",
+    id: "7",
     name: "Organic Food Collection",
     description:
       "Realistic food models including fruits and vegetables. Perfect for product visualization and AR apps.",
     price: 49.99,
     category: "Nature",
-    thumbnail:
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+    thumbnail: "/images/avocado-thumb.jpg",
     fileUrl: "/models/avocado.glb",
     fileFormat: "GLTF",
     polyCount: 8000,
